@@ -1,4 +1,4 @@
-# :octocat: Mouse Movement Parallax Animation using `Javascript`
+# :octocat: Mouse Movement Parallax using `Javascript`
 
 The Website which tracks mouse movement and creates a parallax effect using JavaScript.
 
