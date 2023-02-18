@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse_Movement_Parallax_Animation</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(53, 53, 60);
+        }
+        #clould_1{
+            position: absolute;
+            top: 30%;
+            right: 9%;
+        }
+        #clould_2{
+            position: absolute;
+            top: 20%;
+            left: 10%;
+        }
+        #clould_3{
+            position: absolute;
+            top: 70%;
+            right: 39%;
+        }
+    </style>
+</head>
+<body>
+    <img src="/Clouds_Pics/1.png" class="images_cloud" id="clould_1" data-value="-5">
+    <img src="/Clouds_Pics/2.png" class="images_cloud" id="clould_2" data-value="9">
+    <img src="/Clouds_Pics/4.png" class="images_cloud" id="clould_3" data-value="2">
+    <script type="text/javascript">
+        document.addEventListener("mousemove", parallax);
+            function parallax(e)
+            {
+                document.querySelectorAll(".images_cloud").forEach(function(move){
+                    var moving_value = move.getAttribute("data-value");
+                    var x = (e.clientX * moving_value)/250;
+                    var y = (e.clientY * moving_value)/200;
+                    move.style.transform = "translateX("+x+"px) translateY("+y+"px)";
+                });
+            }
+    </script>
+</body>
+</html>
