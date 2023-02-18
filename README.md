@@ -18,7 +18,7 @@ This is a simple website made using,
 ## :octocat: Cloning this repo(Terminal Version):
 - [x] Run the following command:
 ```bash 
-git clone '[https://github.com/yashdoshi12/Live_Weather_Website.git](https://github.com/yashdoshi12/Mouse_Movement_Parallax_Animation.git)' 
+git clone 'https://github.com/yashdoshi12/Mouse_Movement_Parallax_Animation.git' 
 ```
 - [x] `cd` to the cloned folder:
 ```bash 
