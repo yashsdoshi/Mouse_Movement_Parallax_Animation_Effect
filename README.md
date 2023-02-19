@@ -25,7 +25,7 @@ git clone 'https://github.com/yashdoshi12/Mouse_Movement_Parallax_Animation.git'
 cd Mouse_Movement_Parallax_Animation
 ```
 
-# :octocat: Example prewview of website:
+# :octocat: Example preview of website:
 ![Moon Trip](https://user-images.githubusercontent.com/39629707/219959913-62674c40-7d5b-4a94-9ea1-efcbd42fd3cf.gif)
 
 
